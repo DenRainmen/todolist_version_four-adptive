@@ -1,0 +1,101 @@
+.error {
+  border: 0.2vw solid red;
+}
+
+.error-message {
+  color: red;
+  font-size: 1.8vw;
+}
+
+.active-filter {
+  background-color: #274c4c;
+  font-size: 2vw;
+}
+
+#root {
+  margin-top: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  font-family: Lobster, cursive;
+
+  width: 30%;
+  border-radius: 5% 5% 3% 3%;
+}
+
+.App > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+i.title {
+  outline: 0.1vw solid rgb(183, 20, 189);
+  background-color: rgb(183, 20, 189);
+  margin: 0;
+  font-size: 3vw;
+  width: 100%;
+  text-align: center;
+  border-radius: 1vw 1vw 0 0;
+  color: rgb(255, 255, 255);
+}
+
+.card-container {
+  background: rgb(199, 228, 96);
+  outline: 0.1vw solid rgb(183, 20, 189);
+  width: 99.2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0% 0% 3% 3%;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 2vw;
+}
+
+.isDone {
+  opacity: 0.2;
+}
+
+/* [type="checkbox"]{
+  
+} */
+
+[type="text"] {
+  font-size: 1.7vw;
+  margin-top: 1vw;
+  border-radius: 0.8vw;
+}
+
+[type="button"] {
+  background: rgb(190, 221, 15);
+  border-radius: 0.5vw;
+  font-size: 1.3vw;
+  padding: 0 0.5vw;
+}
+
+.filterButton {
+  font-size: 1.5vw;
+  background: snow;
+  color: rgb(139, 39, 179);
+}
+
+button {
+  border-radius: 0.5vw 0.5vw 0.5vw 0.5vw;
+  background: rgb(9, 140, 228);
+  color: chartreuse;
+  font-family: Verdana;
+  letter-spacing: 0.2vw;
+  padding: 0.3vw;
+  margin: 0.5vw;
+  font-size: 1vw;
+}
