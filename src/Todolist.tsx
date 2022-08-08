@@ -29,7 +29,7 @@ export function Todolist(props: PROPS) {
         setError("Error text input");
         break;
       default:
-        props.addTask(inputText);
+        props.addTask(inputText.trim());
         SetInputText("");
     }
   };
